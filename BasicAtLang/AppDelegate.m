@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "BasicMainViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) UINavigationController *navigationController;
 
 @end
 
@@ -17,6 +20,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    BasicMainViewController *mainScreen = [BasicMainViewController new];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:mainScreen];
+    self.window.rootViewController = self.navigationController;
+    self.navigationController.title = @"BASIC AT LANG";
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

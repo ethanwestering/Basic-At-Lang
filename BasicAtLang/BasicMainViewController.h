@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BasicMainViewController.h
 //  BasicAtLang
 //
 //  Created by Ethan Westering on 2/3/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BasicMainViewController : UIViewController
 
 @end
-
