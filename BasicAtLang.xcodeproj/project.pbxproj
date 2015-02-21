@@ -10,11 +10,21 @@
 		184299101A81C44A0022F8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842990F1A81C44A0022F8F9 /* main.m */; };
 		184299131A81C44A0022F8F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184299121A81C44A0022F8F9 /* AppDelegate.m */; };
 		184299161A81C44A0022F8F9 /* BasicAtLang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184299141A81C44A0022F8F9 /* BasicAtLang.xcdatamodeld */; };
-		184299191A81C44A0022F8F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184299181A81C44A0022F8F9 /* ViewController.m */; };
-		1842991C1A81C44A0022F8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1842991A1A81C44A0022F8F9 /* Main.storyboard */; };
 		1842991E1A81C44A0022F8F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1842991D1A81C44A0022F8F9 /* Images.xcassets */; };
 		184299211A81C44A0022F8F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1842991F1A81C44A0022F8F9 /* LaunchScreen.xib */; };
 		1842992D1A81C44A0022F8F9 /* BasicAtLangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1842992C1A81C44A0022F8F9 /* BasicAtLangTests.m */; };
+		1842993B1A81C68C0022F8F9 /* BasicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184299391A81C68C0022F8F9 /* BasicMainViewController.m */; };
+		1842993C1A81C68C0022F8F9 /* BasicMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1842993A1A81C68C0022F8F9 /* BasicMainViewController.xib */; };
+		18CCB4AB1A882EC0005F281F /* SocialMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCB4A91A882EC0005F281F /* SocialMediaViewController.m */; };
+		18CCB4AC1A882EC0005F281F /* SocialMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CCB4AA1A882EC0005F281F /* SocialMediaViewController.xib */; };
+		18CCB4B91A8851DD005F281F /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCB4B71A8851DD005F281F /* ScheduleViewController.m */; };
+		18CCB4BA1A8851DD005F281F /* ScheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CCB4B81A8851DD005F281F /* ScheduleViewController.xib */; };
+		18CCB4BF1A885389005F281F /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCB4BD1A885389005F281F /* BlogViewController.m */; };
+		18CCB4C01A885389005F281F /* BlogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CCB4BE1A885389005F281F /* BlogViewController.xib */; };
+		18CCB4C51A885892005F281F /* GetInvolvedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCB4C31A885892005F281F /* GetInvolvedViewController.m */; };
+		18CCB4C61A885892005F281F /* GetInvolvedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CCB4C41A885892005F281F /* GetInvolvedViewController.xib */; };
+		18CCB4CB1A885DB7005F281F /* BasicTeachingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CCB4C91A885DB7005F281F /* BasicTeachingsViewController.m */; };
+		18CCB4CC1A885DB7005F281F /* BasicTeachingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CCB4CA1A885DB7005F281F /* BasicTeachingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +44,29 @@
 		184299111A81C44A0022F8F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		184299121A81C44A0022F8F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		184299151A81C44A0022F8F9 /* BasicAtLang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BasicAtLang.xcdatamodel; sourceTree = "<group>"; };
-		184299171A81C44A0022F8F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		184299181A81C44A0022F8F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1842991B1A81C44A0022F8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1842991D1A81C44A0022F8F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		184299201A81C44A0022F8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		184299261A81C44A0022F8F9 /* BasicAtLangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicAtLangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1842992B1A81C44A0022F8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1842992C1A81C44A0022F8F9 /* BasicAtLangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAtLangTests.m; sourceTree = "<group>"; };
+		184299381A81C68C0022F8F9 /* BasicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMainViewController.h; sourceTree = "<group>"; };
+		184299391A81C68C0022F8F9 /* BasicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMainViewController.m; sourceTree = "<group>"; };
+		1842993A1A81C68C0022F8F9 /* BasicMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicMainViewController.xib; sourceTree = "<group>"; };
+		18CCB4A81A882EC0005F281F /* SocialMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMediaViewController.h; sourceTree = "<group>"; };
+		18CCB4A91A882EC0005F281F /* SocialMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialMediaViewController.m; sourceTree = "<group>"; };
+		18CCB4AA1A882EC0005F281F /* SocialMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialMediaViewController.xib; sourceTree = "<group>"; };
+		18CCB4B61A8851DD005F281F /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = BasicAtLang/ScheduleViewController.h; sourceTree = "<group>"; };
+		18CCB4B71A8851DD005F281F /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = BasicAtLang/ScheduleViewController.m; sourceTree = "<group>"; };
+		18CCB4B81A8851DD005F281F /* ScheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ScheduleViewController.xib; path = BasicAtLang/ScheduleViewController.xib; sourceTree = "<group>"; };
+		18CCB4BC1A885389005F281F /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		18CCB4BD1A885389005F281F /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
+		18CCB4BE1A885389005F281F /* BlogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogViewController.xib; sourceTree = "<group>"; };
+		18CCB4C21A885892005F281F /* GetInvolvedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetInvolvedViewController.h; sourceTree = "<group>"; };
+		18CCB4C31A885892005F281F /* GetInvolvedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetInvolvedViewController.m; sourceTree = "<group>"; };
+		18CCB4C41A885892005F281F /* GetInvolvedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetInvolvedViewController.xib; sourceTree = "<group>"; };
+		18CCB4C81A885DB7005F281F /* BasicTeachingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTeachingsViewController.h; sourceTree = "<group>"; };
+		18CCB4C91A885DB7005F281F /* BasicTeachingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTeachingsViewController.m; sourceTree = "<group>"; };
+		18CCB4CA1A885DB7005F281F /* BasicTeachingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicTeachingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +110,13 @@
 			children = (
 				184299111A81C44A0022F8F9 /* AppDelegate.h */,
 				184299121A81C44A0022F8F9 /* AppDelegate.m */,
-				184299171A81C44A0022F8F9 /* ViewController.h */,
-				184299181A81C44A0022F8F9 /* ViewController.m */,
-				1842991A1A81C44A0022F8F9 /* Main.storyboard */,
 				1842991D1A81C44A0022F8F9 /* Images.xcassets */,
+				18CCB4B41A8851A4005F281F /* Main Page */,
+				18CCB4BB1A8851E6005F281F /* Schedule */,
+				18CCB4B51A8851B4005F281F /* Social Media */,
+				18CCB4C11A885391005F281F /* Blog */,
+				18CCB4C71A88589F005F281F /* Get Involved */,
+				18CCB4CD1A885DC0005F281F /* Teachings */,
 				1842991F1A81C44A0022F8F9 /* LaunchScreen.xib */,
 				184299141A81C44A0022F8F9 /* BasicAtLang.xcdatamodeld */,
 				1842990D1A81C44A0022F8F9 /* Supporting Files */,
@@ -120,6 +148,67 @@
 				1842992B1A81C44A0022F8F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CCB4B41A8851A4005F281F /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				184299381A81C68C0022F8F9 /* BasicMainViewController.h */,
+				184299391A81C68C0022F8F9 /* BasicMainViewController.m */,
+				1842993A1A81C68C0022F8F9 /* BasicMainViewController.xib */,
+			);
+			name = "Main Page";
+			sourceTree = "<group>";
+		};
+		18CCB4B51A8851B4005F281F /* Social Media */ = {
+			isa = PBXGroup;
+			children = (
+				18CCB4A81A882EC0005F281F /* SocialMediaViewController.h */,
+				18CCB4A91A882EC0005F281F /* SocialMediaViewController.m */,
+				18CCB4AA1A882EC0005F281F /* SocialMediaViewController.xib */,
+			);
+			name = "Social Media";
+			sourceTree = "<group>";
+		};
+		18CCB4BB1A8851E6005F281F /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				18CCB4B61A8851DD005F281F /* ScheduleViewController.h */,
+				18CCB4B71A8851DD005F281F /* ScheduleViewController.m */,
+				18CCB4B81A8851DD005F281F /* ScheduleViewController.xib */,
+			);
+			name = Schedule;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18CCB4C11A885391005F281F /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				18CCB4BC1A885389005F281F /* BlogViewController.h */,
+				18CCB4BD1A885389005F281F /* BlogViewController.m */,
+				18CCB4BE1A885389005F281F /* BlogViewController.xib */,
+			);
+			name = Blog;
+			sourceTree = "<group>";
+		};
+		18CCB4C71A88589F005F281F /* Get Involved */ = {
+			isa = PBXGroup;
+			children = (
+				18CCB4C21A885892005F281F /* GetInvolvedViewController.h */,
+				18CCB4C31A885892005F281F /* GetInvolvedViewController.m */,
+				18CCB4C41A885892005F281F /* GetInvolvedViewController.xib */,
+			);
+			name = "Get Involved";
+			sourceTree = "<group>";
+		};
+		18CCB4CD1A885DC0005F281F /* Teachings */ = {
+			isa = PBXGroup;
+			children = (
+				18CCB4C81A885DB7005F281F /* BasicTeachingsViewController.h */,
+				18CCB4C91A885DB7005F281F /* BasicTeachingsViewController.m */,
+				18CCB4CA1A885DB7005F281F /* BasicTeachingsViewController.xib */,
+			);
+			name = Teachings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +291,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1842991C1A81C44A0022F8F9 /* Main.storyboard in Resources */,
+				18CCB4CC1A885DB7005F281F /* BasicTeachingsViewController.xib in Resources */,
+				18CCB4C01A885389005F281F /* BlogViewController.xib in Resources */,
+				18CCB4AC1A882EC0005F281F /* SocialMediaViewController.xib in Resources */,
 				184299211A81C44A0022F8F9 /* LaunchScreen.xib in Resources */,
+				18CCB4BA1A8851DD005F281F /* ScheduleViewController.xib in Resources */,
 				1842991E1A81C44A0022F8F9 /* Images.xcassets in Resources */,
+				1842993C1A81C68C0022F8F9 /* BasicMainViewController.xib in Resources */,
+				18CCB4C61A885892005F281F /* GetInvolvedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCB4BF1A885389005F281F /* BlogViewController.m in Sources */,
+				18CCB4AB1A882EC0005F281F /* SocialMediaViewController.m in Sources */,
+				18CCB4B91A8851DD005F281F /* ScheduleViewController.m in Sources */,
 				184299131A81C44A0022F8F9 /* AppDelegate.m in Sources */,
+				18CCB4C51A885892005F281F /* GetInvolvedViewController.m in Sources */,
 				184299101A81C44A0022F8F9 /* main.m in Sources */,
-				184299191A81C44A0022F8F9 /* ViewController.m in Sources */,
+				1842993B1A81C68C0022F8F9 /* BasicMainViewController.m in Sources */,
 				184299161A81C44A0022F8F9 /* BasicAtLang.xcdatamodeld in Sources */,
+				18CCB4CB1A885DB7005F281F /* BasicTeachingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +347,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1842991A1A81C44A0022F8F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1842991B1A81C44A0022F8F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1842991F1A81C44A0022F8F9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BasicAtLang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BasicAtLang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +509,7 @@
 				184299321A81C44A0022F8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184299331A81C44A0022F8F9 /* Build configuration list for PBXNativeTarget "BasicAtLangTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +518,7 @@
 				184299351A81C44A0022F8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

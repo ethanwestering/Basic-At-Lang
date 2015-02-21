@@ -23,8 +23,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     BasicMainViewController *mainScreen = [BasicMainViewController new];
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:mainScreen];
+    mainScreen.title = @"BASIC AT LANG";
     self.window.rootViewController = self.navigationController;
-    self.navigationController.title = @"BASIC AT LANG";
     [self.window makeKeyAndVisible];
     return YES;
 }
